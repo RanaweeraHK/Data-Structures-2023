@@ -12,7 +12,7 @@
 
 **Lab 7**
 
--In lab7 ,we assigned to implement the insertion and deletion operations of binary search tree. For the given inputs , we have to traverse through the tree and outputs the elements in binary search tree. 
+- In lab7 ,we assigned to implement the insertion and deletion operations of binary search tree. For the given inputs , we have to traverse through the tree and outputs the elements in binary search tree. 
 User has to input the assigned operation number and the key value. 
 
  
