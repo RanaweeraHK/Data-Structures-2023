@@ -8,7 +8,7 @@ struct node {   //structure of the node
 
 //making a new node
 struct node* newNode(int item){
-    struct node* temp = (struct node*)malloc(sizeof(struct node));  //explicitly allocate memory to the new node
+    struct node* temp = (struct node*)malloc(sizeof(struct node));  //explicitly allocating memory to the new node
     temp -> key =item; //setting the key value of the new node
     temp ->left =NULL;  //setting the left subtree of the new node
     temp ->right =NULL;  //setting the right subtree of the new node
@@ -28,9 +28,9 @@ void traverseInOrder(struct node *root) {
     if(root == NULL){
         return;
     }
-    traverseInOrder(root->left); //traverse through the left subtree
+    traverseInOrder(root->left); //traversing through the left subtree
     cout<< root->key << " ";
-    traverseInOrder(root-> right); //traverse through the right subtree
+    traverseInOrder(root-> right); //traversing through the right subtree
 }
 
 // Inserting a node
