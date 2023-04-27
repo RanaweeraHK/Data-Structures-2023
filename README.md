@@ -8,3 +8,15 @@
  
  - [ ] Implement the stack by array using given example in the lab .Then checking the run time inserting random values to the stack according to the given stack size.
  - [ ] Implement the stack by singly linked list using given example in the lab .Then checking the run time inserting random values to the stack according to the given stack size.
+
+
+**Lab 7**
+In lab7 ,we assigned to implement the insertion and deletion operations of binary search tree. For the given inputs , we have to traverse through the tree and outputs the elements in binary search tree. 
+User has to input the assigned operation number and the key value. 
+
+ 
+
+ - operation 1 - insertion
+ - operation 2 - deletion
+ - -1  Exit
+ 
