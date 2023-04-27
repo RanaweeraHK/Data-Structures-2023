@@ -38,7 +38,7 @@ struct node *insertNode(struct node *node, int key) {
     if (node==NULL){  //if node is empty
         return newNode(key);
     }
-    if(key <node->key) //inserting a value into left subtree
+    if(key <=node->key) //inserting a value into left subtree
       node ->left =insertNode(node->left,key);
     else if (key >node->key) //inserting a value into right subtree
       node ->right =insertNode(node->right ,key);
