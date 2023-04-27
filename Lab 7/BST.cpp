@@ -115,5 +115,4 @@ int main() {
   }
   
   traverseInOrder(root);
-  return 0;
 }
