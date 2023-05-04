@@ -49,13 +49,18 @@ void displayArray(int arr[], int n)
 // main program
 int main()
 {
-   int heap_arr[] = {9,3,0,23,6,10,2};
-   int n = sizeof(heap_arr)/sizeof(heap_arr[0]);
+   int size; 
+   cout<<"Enter the size of array :"<<" "; // asking the size of array from the user
+   cin>> size;
+   int heap_arr[size];
    cout<<"Input array"<<endl;
-   displayArray(heap_arr,n);
+   for(int i=0;i<size ;i++){ //getting the elements of the array
+    cin>> heap_arr[i];
+   }
+   //displayArray(heap_arr,size);
   
-   heapSort(heap_arr, n);
+   heapSort(heap_arr, size);
   
    cout << "Sorted array"<<endl;
-   displayArray(heap_arr, n);
+   displayArray(heap_arr, size);
 }
