@@ -24,10 +24,6 @@ User has to input the assigned operation number and the key value.
 **Lab 8**
 
  - In this lab , we were assigned to complete the heap sort algorithm.
- - The input size and the elements of the array gets from the user and  
-   outputs the sorted array as comma separated values.
- - In the code heapify() function is used to convert the elements into a
-   heap using recursion.
- - The function heapSort() sorts the array elements using heap sort. It
-   starts from the non-leaf nodes and calls the heapify() on each of
-   them. This converts the array into a binary max heap.
+ - The input size and the elements of the array gets from the user and  outputs the sorted array as comma separated values.
+ - In the code heapify() function is used to convert the elements into a heap using recursion.
+ - The function heapSort() sorts the array elements using heap sort. It starts from the non-leaf nodes and calls the heapify() on each of them. This converts the array into a binary max heap.
