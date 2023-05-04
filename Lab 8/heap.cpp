@@ -64,3 +64,4 @@ int main()
    cout << "Sorted array"<<endl;
    displayArray(heap_arr, size);
 }
+
