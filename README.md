@@ -29,6 +29,8 @@ User has to input the assigned operation number and the key value.
  - The function heapSort() sorts the array elements using heap sort. It starts from the non-leaf nodes and calls the heapify() on each of them. This converts the array into a binary max heap.
 
 **Lab 9**
+
+
 This lab is based on hash tables. We implemented a password look up system using hash tables. We first implemented hash table without chaining and then imported a linkedList.cpp  and implemented hash table with chaining.
 User can do 4 main tasks by using this password lookup system.
 
