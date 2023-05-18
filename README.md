@@ -38,3 +38,8 @@ User can do 4 main tasks by using this password lookup system.
  2. Delete - deleting existing user profile in the system
  3. Print Hash lookup password
  4. Print hash table
+
+
+**Lab 10**
+
+This lab is based on graphs ADT. As we know, graphs can be implemented by adjacency lists , adjacency matrix . In this lab ,we were assigned to give the output as an adjacency list. 
