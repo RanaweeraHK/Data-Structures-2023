@@ -90,7 +90,7 @@ int main()
                       {15, 0, 5, 0, 0, 0},
                       {5, 0, 0, 20, 0, 0}};
 
-    int src = 5; // Source city
+    int src = 0; // Source city
 
     dijkstra(graph, src, V);
 
