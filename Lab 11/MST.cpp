@@ -23,6 +23,7 @@ int main() {
 
     int edge_num = 0;
     int x, y;
+    int total_weight = 0;
 
     cout << "Edge : Weight" << endl;
 
@@ -49,10 +50,15 @@ int main() {
         // Print the selected edge and its weight
         cout << x << " - " << y << " : " << G[x][y] << endl;
 
+        // Update the total weight
+        total_weight += G[x][y];
+
         // Mark the newly selected vertex as visited
         selected[y] = true;
         edge_num++;
     }
+
+    cout << "Total Weight: " << total_weight << endl;
 
     return 0;
 }
