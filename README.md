@@ -1,4 +1,10 @@
 # Data-Structures-2023
+**Lab 5** 
+Running Median, Quick Sort (Recursive and Non-Recursive)
+
+- Implement the running median algorithm.
+- Implement quick sort recursively and non-recursively.
+
 **Lab 6**
 
  - Data structures and algorithm module provides this lab to implement a stack using an array and a linked list .
